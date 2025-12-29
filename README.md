@@ -41,3 +41,6 @@ clarinet console
 ```bash
 npm run dev
 ```
+## License
+
+MIT License. See LICENSE for more details.
