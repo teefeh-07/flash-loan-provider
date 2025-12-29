@@ -18,3 +18,6 @@ To provide a secure and efficient way for users to execute flash loans on the St
 - Dynamic Fee Management
 - Real-time event monitoring
 - Multi-wallet support (Xverse, Hiro, etc.)
+## Architecture
+
+The project consists of a core flash loan contract and a frontend interface that interacts with it via Hiro/Xverse wallets.
