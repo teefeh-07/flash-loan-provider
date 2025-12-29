@@ -43,3 +43,4 @@ export const round = (a) => Math.round(a);
 /**
  * Rounds down.
  */
+export const floor = (a) => Math.floor(a);
