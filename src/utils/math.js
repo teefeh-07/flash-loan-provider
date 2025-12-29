@@ -24,3 +24,7 @@ export const divide = (a, b) => a / b;
  * Raises a number to a power.
  */
 export const power = (a, b) => Math.pow(a, b);
+
+/**
+ * Calculates square root.
+ */
