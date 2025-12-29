@@ -36,3 +36,8 @@ npm install
 ```bash
 clarinet console
 ```
+## Running Frontend
+
+```bash
+npm run dev
+```
