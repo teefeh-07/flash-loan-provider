@@ -4,3 +4,6 @@
 (define-constant ERR-UNAUTHORIZED (err u100))
 (define-constant ERR-INSUFFICIENT-FUNDS (err u101))
 (define-constant ERR-INVALID-LOAN (err u102))
+
+(define-data-var fee-rate uint u5) ;; 0.05%
+(define-data-var contract-owner principal tx-sender)
