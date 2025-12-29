@@ -34,3 +34,7 @@ export const getYear = (d) => d.getFullYear();
  * Add days to date.
  */
 export const addDays = (d, n) => new Date(d.setDate(d.getDate() + n));
+
+/**
+ * Subtract days.
+ */
