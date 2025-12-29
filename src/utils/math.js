@@ -18,3 +18,4 @@ export const multiply = (a, b) => a * b;
 /**
  * Divides two numbers.
  */
+export const divide = (a, b) => a / b;
