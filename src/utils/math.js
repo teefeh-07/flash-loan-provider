@@ -38,3 +38,4 @@ export const abs = (a) => Math.abs(a);
 /**
  * Rounds to nearest integer.
  */
+export const round = (a) => Math.round(a);
