@@ -25,3 +25,12 @@
 (define-read-only (get-owner)
     (ok (var-get contract-owner))
 )
+
+;; Admin functions
+(define-public (set-fee-rate (new-rate uint))
+    (begin
+        (asserts! (is-eq tx-sender (var-get contract-owner)) ERR-UNAUTHORIZED)
+        (var-set fee-rate new-rate)
+        (ok true)
+    )
+)
