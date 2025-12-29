@@ -19,3 +19,6 @@ export const flatten = (arr) => arr.flat();
  * Flattens array.
  */
 export const compact = (arr) => arr.filter(Boolean);
+/**
+ * Removes falsey values.
+ */
