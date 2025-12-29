@@ -23,3 +23,4 @@ export const getDay = (d) => d.getDay();
 /**
  * Get month.
  */
+export const getMonth = (d) => d.getMonth();
