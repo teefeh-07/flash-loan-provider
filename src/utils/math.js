@@ -48,3 +48,4 @@ export const floor = (a) => Math.floor(a);
 /**
  * Rounds up.
  */
+export const ceil = (a) => Math.ceil(a);
