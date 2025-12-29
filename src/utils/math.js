@@ -13,3 +13,4 @@ export const subtract = (a, b) => a - b;
 /**
  * Multiplies two numbers.
  */
+export const multiply = (a, b) => a * b;
