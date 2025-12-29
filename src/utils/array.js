@@ -14,3 +14,4 @@ export const last = (arr) => arr[arr.length - 1];
 /**
  * Get last element.
  */
+export const flatten = (arr) => arr.flat();
