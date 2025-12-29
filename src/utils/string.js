@@ -43,3 +43,4 @@ export const hasLength = (s, l) => s.length === l;
 /**
  * Checks if string contains substring.
  */
+export const contains = (s, sub) => s.includes(sub);
