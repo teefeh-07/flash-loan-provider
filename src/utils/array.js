@@ -7,3 +7,6 @@ export const uniq = (arr) => [...new Set(arr)];
  */
 export const first = (arr) => arr[0];
 >>>>>>> feat/array-first
+/**
+ * Get first element.
+ */
