@@ -14,3 +14,7 @@ export const isDate = (d) => d instanceof Date;
  * Convert to ISO string.
  */
 export const toISOString = (d) => d.toISOString();
+
+/**
+ * Get day of week.
+ */
