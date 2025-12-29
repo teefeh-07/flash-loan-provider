@@ -39,6 +39,13 @@ export const addDays = (d, n) => new Date(d.setDate(d.getDate() + n));
 /**
  * Subtract days.
  */
+<<<<<<< HEAD
 =======
 export const subDays = (d, n) => new Date(d.setDate(d.getDate() - n));
 >>>>>>> feat/date-subDays
+=======
+
+/**
+ * Check leap year.
+ */
+>>>>>>> docs/date-isLeapYear
