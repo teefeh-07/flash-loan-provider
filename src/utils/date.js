@@ -29,3 +29,7 @@ export const getMonth = (d) => d.getMonth();
  * Get full year.
  */
 export const getYear = (d) => d.getFullYear();
+
+/**
+ * Add days to date.
+ */
