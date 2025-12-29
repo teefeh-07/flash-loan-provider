@@ -8,7 +8,7 @@ requirements = []
 [contracts.flash-loan]
 path = 'contracts/flash-loan.clar'
 clarity_version = 4
-epoch = 2.5
+epoch = "3.3"
 [repl.analysis]
 passes = ['check_checker']
 
