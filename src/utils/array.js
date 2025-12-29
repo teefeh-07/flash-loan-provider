@@ -10,3 +10,4 @@ export const first = (arr) => arr[0];
 /**
  * Get first element.
  */
+export const last = (arr) => arr[arr.length - 1];
