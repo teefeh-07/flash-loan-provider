@@ -38,3 +38,4 @@ export const isEmpty = (s) => s.length === 0;
 /**
  * Checks string length.
  */
+export const hasLength = (s, l) => s.length === l;
