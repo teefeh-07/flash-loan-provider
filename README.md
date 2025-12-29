@@ -11,3 +11,10 @@ To provide a secure and efficient way for users to execute flash loans on the St
 - **Blockchain Link**: @stacks/connect, @stacks/transactions
 - **Event Hooks**: @hirosystems/chainhooks-client
 - **Wallet Support**: WalletConnect
+## Key Features
+
+- Zero-collateral loans (Flash Loans)
+- SIP-010 Token Support
+- Dynamic Fee Management
+- Real-time event monitoring
+- Multi-wallet support (Xverse, Hiro, etc.)
