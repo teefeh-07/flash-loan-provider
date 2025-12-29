@@ -1,30 +1,6 @@
+;; Flash Loan Provider
+;; Clarity 4 / Epoch 3.3
 
-;; title: flash-loan
-;; version:
-;; summary:
-;; description:
-
-;; traits
-;;
-
-;; token definitions
-;;
-
-;; constants
-;;
-
-;; data vars
-;;
-
-;; data maps
-;;
-
-;; public functions
-;;
-
-;; read only functions
-;;
-
-;; private functions
-;;
-
+(define-constant ERR-UNAUTHORIZED (err u100))
+(define-constant ERR-INSUFFICIENT-FUNDS (err u101))
+(define-constant ERR-INVALID-LOAN (err u102))
