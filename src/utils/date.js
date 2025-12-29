@@ -34,7 +34,11 @@ export const getYear = (d) => d.getFullYear();
  * Add days to date.
  */
 export const addDays = (d, n) => new Date(d.setDate(d.getDate() + n));
+<<<<<<< HEAD
 
 /**
  * Subtract days.
  */
+=======
+export const subDays = (d, n) => new Date(d.setDate(d.getDate() - n));
+>>>>>>> feat/date-subDays
