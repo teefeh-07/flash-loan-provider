@@ -13,3 +13,4 @@ export const lowercase = (s) => s.toLowerCase();
 /**
  * Converts to uppercase.
  */
+export const uppercase = (s) => s.toUpperCase();
