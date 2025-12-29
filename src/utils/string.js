@@ -34,3 +34,7 @@ export const isString = (v) => typeof v === "string";
  * Checks if string is empty.
  */
 export const isEmpty = (s) => s.length === 0;
+
+/**
+ * Checks string length.
+ */
