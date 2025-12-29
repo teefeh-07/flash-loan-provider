@@ -23,3 +23,4 @@ export const trim = (s) => s.trim();
 /**
  * Reverses string.
  */
+export const reverse = (s) => s.split("").reverse().join("");
