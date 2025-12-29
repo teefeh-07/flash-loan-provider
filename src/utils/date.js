@@ -54,3 +54,4 @@ export const isLeapYear = (y) => (y % 4 == 0 && y % 100 != 0) || (y % 400 == 0);
 /**
  * Get time in ms.
  */
+export const getTime = (d) => d.getTime();
