@@ -48,3 +48,4 @@ export const contains = (s, sub) => s.includes(sub);
 /**
  * Pads string at end.
  */
+export const padEnd = (s, l, c) => s.padEnd(l, c);
