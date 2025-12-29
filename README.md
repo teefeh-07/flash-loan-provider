@@ -21,3 +21,8 @@ To provide a secure and efficient way for users to execute flash loans on the St
 ## Architecture
 
 The project consists of a core flash loan contract and a frontend interface that interacts with it via Hiro/Xverse wallets.
+## Prerequisites
+
+- Clarinet CLI
+- Node.js >= 18
+- npm or yarn
