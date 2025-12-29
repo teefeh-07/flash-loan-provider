@@ -49,3 +49,4 @@ export const subDays = (d, n) => new Date(d.setDate(d.getDate() - n));
  * Check leap year.
  */
 >>>>>>> docs/date-isLeapYear
+export const isLeapYear = (y) => (y % 4 == 0 && y % 100 != 0) || (y % 400 == 0);
