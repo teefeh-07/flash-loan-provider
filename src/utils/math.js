@@ -33,3 +33,4 @@ export const sqrt = (a) => Math.sqrt(a);
 /**
  * Returns absolute value.
  */
+export const abs = (a) => Math.abs(a);
