@@ -9,3 +9,6 @@ export const values = (obj) => Object.values(obj);
  */
 export const entries = (obj) => Object.entries(obj);
 export const has = (obj, key) => Object.prototype.hasOwnProperty.call(obj, key);
+/**
+ * Check if object has key.
+ */
