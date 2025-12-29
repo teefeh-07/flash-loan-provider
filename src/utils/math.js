@@ -29,3 +29,7 @@ export const power = (a, b) => Math.pow(a, b);
  * Calculates square root.
  */
 export const sqrt = (a) => Math.sqrt(a);
+
+/**
+ * Returns absolute value.
+ */
