@@ -13,3 +13,6 @@ export const has = (obj, key) => Object.prototype.hasOwnProperty.call(obj, key);
  * Check if object has key.
  */
 export const pick = (obj, keys) => keys.reduce((acc, key) => { if (key in obj) acc[key] = obj[key]; return acc; }, {});
+/**
+ * Pick keys from object.
+ */
