@@ -31,3 +31,8 @@ The project consists of a core flash loan contract and a frontend interface that
 ```bash
 npm install
 ```
+## Running Contracts
+
+```bash
+clarinet console
+```
