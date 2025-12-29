@@ -28,3 +28,4 @@ export const reverse = (s) => s.split("").reverse().join("");
 /**
  * Checks if value is string.
  */
+export const isString = (v) => typeof v === "string";
