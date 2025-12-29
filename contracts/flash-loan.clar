@@ -16,3 +16,8 @@
         (ok true) ;; Placeholder for logic
     )
 )
+
+;; Read-only functions
+(define-read-only (get-fee-rate)
+    (ok (var-get fee-rate))
+)
