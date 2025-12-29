@@ -12,7 +12,7 @@
 (define-public (flash-loan (loan-amount uint) (recipient principal))
     (begin
         ;; Check if contract has enough balance
-        (asserts! (>= (stx-get-balance (as-contract tx-sender)) loan-amount) ERR-INSUFFICIENT-FUNDS)
+        (asserts! (>= (stx-get-balance (unwrap-panic (as-contract? tx-sender))) loan-amount) ERR-INSUFFICIENT-FUNDS)
         (ok true) ;; Placeholder for logic
     )
 )
