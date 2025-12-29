@@ -22,3 +22,4 @@ export const compact = (arr) => arr.filter(Boolean);
 /**
  * Removes falsey values.
  */
+export const chunk = (arr, size) => Array.from({ length: Math.ceil(arr.length / size) }, (v, i) => arr.slice(i * size, i * size + size));
