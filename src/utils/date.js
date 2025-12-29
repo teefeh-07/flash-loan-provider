@@ -18,3 +18,4 @@ export const toISOString = (d) => d.toISOString();
 /**
  * Get day of week.
  */
+export const getDay = (d) => d.getDay();
