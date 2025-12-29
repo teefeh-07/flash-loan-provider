@@ -19,3 +19,7 @@ export const uppercase = (s) => s.toUpperCase();
  * Removes whitespace.
  */
 export const trim = (s) => s.trim();
+
+/**
+ * Reverses string.
+ */
