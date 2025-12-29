@@ -26,3 +26,8 @@ The project consists of a core flash loan contract and a frontend interface that
 - Clarinet CLI
 - Node.js >= 18
 - npm or yarn
+## Installation
+
+```bash
+npm install
+```
