@@ -9,3 +9,8 @@ export const now = () => Date.now();
  * Check if is Date object.
  */
 export const isDate = (d) => d instanceof Date;
+
+/**
+ * Convert to ISO string.
+ */
+export const toISOString = (d) => d.toISOString();
