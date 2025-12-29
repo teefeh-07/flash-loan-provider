@@ -3,3 +3,4 @@
 /**
  * Get current timestamp.
  */
+export const now = () => Date.now();
