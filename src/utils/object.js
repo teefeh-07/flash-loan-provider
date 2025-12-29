@@ -16,3 +16,4 @@ export const pick = (obj, keys) => keys.reduce((acc, key) => { if (key in obj) a
 /**
  * Pick keys from object.
  */
+export const omit = (obj, keys) => { const next = { ...obj }; keys.forEach(key => delete next[key]); return next; };
