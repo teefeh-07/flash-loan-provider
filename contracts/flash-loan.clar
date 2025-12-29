@@ -21,3 +21,7 @@
 (define-read-only (get-fee-rate)
     (ok (var-get fee-rate))
 )
+
+(define-read-only (get-owner)
+    (ok (var-get contract-owner))
+)
