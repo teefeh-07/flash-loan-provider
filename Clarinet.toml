@@ -7,7 +7,7 @@ cache_dir = './.cache'
 requirements = []
 [contracts.flash-loan]
 path = 'contracts/flash-loan.clar'
-clarity_version = 2
+clarity_version = 4
 epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
